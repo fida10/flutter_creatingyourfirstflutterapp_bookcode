@@ -28,11 +28,11 @@ class MyFirstApp extends StatelessWidget {
         // Define AppBarTheme within ThemeData
         appBarTheme: const AppBarTheme(
           color: Colors
-              .amber, //This sets a default, global color for all app bars in the app
+              .green, //This sets a default, global color for all app bars in the app
           //there is a mistake in the book that says that "swatches" do this, that is not correct
         ),
         textTheme: const TextTheme(
-          bodyMedium: TextStyle(fontSize: 30, color: Colors.red),
+          bodyMedium: TextStyle(fontSize: 45, color: Colors.deepPurple),
           //similarly, this sets a default text style for the app
         ),
       ),
